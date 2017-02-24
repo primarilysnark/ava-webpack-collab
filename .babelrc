@@ -1,0 +1,9 @@
+{
+  "presets": ["es2015", "react"],
+  "plugins": [
+    ["babel-plugin-webpack-loaders", {
+      "config": "./webpack.ava.config.js",
+      "verbose": false
+    }]
+  ]
+}
